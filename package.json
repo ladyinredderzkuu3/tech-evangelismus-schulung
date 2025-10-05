@@ -1,0 +1,12 @@
+{
+  "name": "tech-evangelismus-schulung",
+  "version": "1.0.0",
+  "description": "Plattform für Tech-Evangelisten",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
