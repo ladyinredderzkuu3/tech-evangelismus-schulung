@@ -3,9 +3,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Willkommen zur Tech Evangelismus Schulung!');
+  res.send('Welcome to the Tech Evangelism Training!');
 });
 
 app.listen(PORT, () => {
-  console.log(`Server läuft auf http://localhost:${PORT}`);
+  console.log(`Server is running at http://localhost:${PORT}`);
 });
